@@ -1,0 +1,81 @@
+.dropdown-menu>li>a {
+	background:#70c3f7;
+}
+.main-row{
+	color: white;
+	font-size: 20px;
+}
+.Picture-item{
+	height: 840px;
+	width: 1440px;
+}
+.Portfolio-item img{
+    height: 350px;
+    width: 200%;
+}
+.input{
+	width: 300%;
+}
+.text-input{
+	width:300%;
+	height: 140px;
+}
+
+.main-content{
+	width: 1400px;
+	height: 600px;
+}
+.foot {
+    text-align: center;
+    background-color: white;
+    font-family: "arial";
+    float: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: thick solid;
+    border-top-color: lightcyan;
+    margin-top: 20px;
+    border-bottom: thick solid;
+    border-bottom-color: lightcyan;
+}
+
+.copy-text{
+	color: white;
+}
+
+@media screen and (max-width: 980px) {
+	
+	.Picture-item{
+		width980px;
+		height:650px;
+	}
+	.navbar {
+		width:980px;
+		height:50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.Picture-item{
+		width: 768px;
+		height:680px;
+	}
+	.navbar {
+		width:768px;
+		height:50px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+	.Picture-item{
+		width: 640px;
+		height:580px;
+	}
+	.navbar {
+		width:640px;
+		height:50px;
+	}
+}
+
